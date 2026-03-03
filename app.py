@@ -6,20 +6,20 @@ import joblib
 import plotly.express as px
 @st.cache_resource
 def load_models():
-    m1 = joblib.load('rice.joblib')
-    m2 = joblib.load('barley.joblib')
-    m3 = joblib.load('cotton.joblib')
-    m4 = joblib.load('wheat.joblib')
+    m1 = joblib.load('models/rice.joblib')
+    m2 = joblib.load('models/barley.joblib')
+    m3 = joblib.load('models/cotton.joblib')
+    m4 = joblib.load('models/wheat.joblib')
 
     
     return m1, m2, m3, m4
 loaded_model1, loaded_model2, loaded_model3, loaded_model4 = load_models()
 @st.cache_resource
 def load_data():
-   n1=joblib.load("cotton_data.joblib")
-   n2=joblib.load("rice_data.joblib")
-   n3=joblib.load("wheat_data.joblib")
-   n4=joblib.load("barley_data.joblib")
+   n1=joblib.load("Crop_data_snippets/cotton_data.joblib")
+   n2=joblib.load("Crop_data_snippets/rice_data.joblib")
+   n3=joblib.load("Crop_data_snippets/wheat_data.joblib")
+   n4=joblib.load("Crop_data_snippets/barley_data.joblib")
    return n1,n2,n3,n4
 dfc,dfr,dfw,dfb=load_data()
 st.title("AGRO PREDICTOR")
