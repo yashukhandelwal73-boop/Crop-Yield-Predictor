@@ -1,6 +1,7 @@
-## Project name- Crop Yield Predictor 
+## Project name - Crop Yield Predictor 
 ---
-## Introduction - This AIML project which uses environmental variables like rainfall , soiltype , weather and temperature to predict yield of crop in tons
+## Introduction - 
+This AIML project which uses environmental variables like rainfall , soiltype , weather and temperature to predict yield of crop in tons
 ---
 ## Dataset - 
   - Trained on 1M rows of agricultural data
