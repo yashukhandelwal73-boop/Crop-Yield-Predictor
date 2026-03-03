@@ -24,3 +24,5 @@ This AIML project which uses environmental variables like rainfall , soiltype , 
 ---
 ## Model Evaluation - 
 Random Forest Regressor showed lower RMSE compared to Linear Regression during evaluation, so it was selected as the final model.
+---
+## AppLink : https://lhbdw9dpjgpfotaqfbpwaj.streamlit.app/
