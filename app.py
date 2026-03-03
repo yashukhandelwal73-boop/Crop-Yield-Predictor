@@ -71,7 +71,7 @@ with col2:
 with st.sidebar:
     st.title("AGRO PREDICTOR")
     st.divider() 
-    st.info(f"Name: Yashu\n\nEnroll No: 01176802725\n\nBranch: CSE-Evening")
+    st.info(f"Name: Yashu\n\nBranch: CSE")
 if  area   > 0:
   if st.button("Predict") :
    Dict_test=pd.DataFrame(Dict_test)
